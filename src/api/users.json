@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "avatar": "https://sunsolaraustralia.com.au/wp-content/uploads/2018/02/5d0a47e88185c.png",
+    "name": "Wells Massey",
+    "title": "Team Lead",
+    "description": "Do esse aliqua nostrud deserunt laboris quis eu cillum ea proident in nulla enim. Cupidatat Lorem reprehenderit consectetur nostrud id elit eiusmod ea Lorem laboris quis. Exercitation fugiat minim ex dolore esse ut est veniam excepteur ut eiusmod voluptate dolore veniam. Aute fugiat pariatur exercitation adipisicing deserunt nisi aliquip ut occaecat aliquip. Ex commodo tempor exercitation aliquip ullamco officia minim culpa reprehenderit culpa aute tempor mollit. Sit voluptate veniam consequat amet nulla.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 474,
+    "createdAt": "2020-02-16T06:48:19 -01:00",
+    "tags": ["frotnend"]
+  },
+  {
+    "id": 1,
+    "avatar": "https://cad.gov.jm/wp-content/uploads/2017/10/img_avatar2.png",
+    "name": "Blackburn Reid",
+    "title": "Team Lead",
+    "description": "Laborum labore occaecat qui fugiat magna adipisicing. Do enim consequat cupidatat commodo id officia ullamco. Magna adipisicing minim ea ea labore. Aute laborum occaecat ullamco cupidatat amet amet sunt.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 451,
+    "createdAt": "2014-12-16T05:19:55 -01:00",
+    "tags": ["next.js"]
+  },
+  {
+    "id": 2,
+    "avatar": "https://www.jrsh.co.in/assets/photo/team/team_5670_1644657096.png",
+    "name": "Riddle Huff",
+    "title": "Backend developer",
+    "description": "Excepteur eu ipsum dolore duis dolor dolor excepteur qui voluptate velit tempor elit sint adipisicing. Sint aliquip irure officia elit non incididunt. Enim cillum qui quis aliquip Lorem mollit qui velit et. Dolore esse eiusmod do laborum ex. Cillum et pariatur eu et commodo dolore laborum.\r\n",
+    "seniority": "Medior",
+    "hourlyRate": 470,
+    "createdAt": "2016-01-14T09:41:43 -01:00",
+    "tags": ["css", "backend"]
+  },
+  {
+    "id": 3,
+    "avatar": "https://www.w3schools.com/w3images/avatar6.png",
+    "name": "Deana Rodriguez",
+    "title": "Frontend developer",
+    "description": "Cillum tempor magna et deserunt. Officia eu incididunt sunt voluptate. Ea elit ipsum mollit minim incididunt magna officia consequat laborum ipsum.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 228,
+    "createdAt": "2014-08-22T04:27:36 -02:00",
+    "tags": ["css", "redux", "redux"]
+  },
+  {
+    "id": 4,
+    "avatar": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=2000",
+    "name": "Jaime Berry",
+    "title": "QA tester",
+    "description": "Quis cupidatat enim sit minim occaecat consequat. Ipsum elit anim reprehenderit adipisicing aute quis exercitation do duis. Cupidatat aute exercitation et dolor exercitation dolore nulla magna labore nulla occaecat exercitation irure sint. Non sit laboris aute dolore elit amet aliquip est amet do irure sint aliquip. Consequat elit sit consequat nulla esse quis ut deserunt sint anim exercitation officia aliquip mollit.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 235,
+    "createdAt": "2015-05-10T08:18:40 -02:00",
+    "tags": ["typescript", "testing", "html"]
+  },
+  {
+    "id": 5,
+    "avatar": "https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-businessman-avatar-icon-flat-style-png-image_1917273.jpg",
+    "name": "Louella Myers",
+    "title": "Devops",
+    "description": "Ullamco elit laboris eu amet officia. Ut elit ad sunt ex esse id nostrud id labore aliquip nisi id ad ut. Ad ea qui est Lorem non exercitation laborum. In deserunt consequat sit pariatur. Consectetur eiusmod nulla commodo consequat quis dolore in ullamco.\r\n",
+    "seniority": "Senior",
+    "hourlyRate": 155,
+    "createdAt": "2016-02-23T01:26:14 -01:00",
+    "tags": ["html"]
+  },
+  {
+    "id": 6,
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3aDHlzgAfDG4_gGi4P2MKfwY-dqaqLwH-kPuyfU240-BZd32D5NsX_NSbdj6l1gg0OQU&usqp=CAU",
+    "name": "Margaret Mcguire",
+    "title": "Team Lead",
+    "description": "Laboris sunt proident nostrud aliquip ullamco mollit Lorem laboris cupidatat ullamco id. Ea commodo consectetur ipsum exercitation aute commodo adipisicing eu do enim esse. Enim officia ipsum cupidatat veniam consequat deserunt velit proident velit adipisicing. Nulla Lorem consectetur fugiat dolor. Laboris eu esse dolore in duis magna anim veniam cillum.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 437,
+    "createdAt": "2020-11-16T11:40:05 -01:00",
+    "tags": ["redux", "testing"]
+  },
+  {
+    "id": 7,
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NIFM8QiRrDJqNRJ9xj-_b09MQwQK0Io5xg3Ge9z2wnmdglim2PCOzHdWsjq0qT_Y8v4&usqp=CAU",
+    "name": "Foreman Olsen",
+    "title": "Backend developer",
+    "description": "Nulla tempor est amet occaecat deserunt officia reprehenderit sint velit sunt aute sit. Ea nisi dolor magna ut. Dolore aliquip tempor ex id consectetur. Exercitation irure laboris incididunt ullamco consequat officia. Non aute velit quis velit nisi.\r\n",
+    "seniority": "Junior",
+    "hourlyRate": 203,
+    "createdAt": "2018-04-05T01:16:01 -02:00",
+    "tags": ["backend", "next.js"]
+  },
+  {
+    "id": 8,
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqmLEM7M9WzpqFLYb7GhrP76gpZ4gFK1mdvJL2MGMDJBhxTD8tEB9fLoHaMN87fxYQbJs&usqp=CAU",
+    "name": "Diane Grimes",
+    "title": "Devops",
+    "description": "Dolor esse culpa velit aliquip tempor exercitation nulla nulla reprehenderit do. Culpa dolore laboris voluptate fugiat dolore ea pariatur incididunt nostrud mollit. Ad ut culpa laboris occaecat nisi commodo exercitation. Dolor Lorem do amet reprehenderit. Esse non elit in nulla incididunt anim. Qui amet tempor culpa Lorem. Officia qui ipsum veniam dolore do laborum eiusmod.\r\n",
+    "seniority": "Senior",
+    "hourlyRate": 229,
+    "createdAt": "2021-02-25T01:38:43 -01:00",
+    "tags": ["testing", "next.js", "next.js"]
+  },
+  {
+    "id": 9,
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2X3AuS7LfW_VKPb72ZGuHKFKZd3CUHEBAPYxQmQjUI9A6vdPk4Ljs4MqBWW0UvfSCEp8&usqp=CAU",
+    "name": "Jimmie Delacruz",
+    "title": "React developer",
+    "description": "Dolore ex mollit nisi irure ex nulla id eu. Minim est adipisicing mollit adipisicing minim in incididunt. Minim velit in dolore magna tempor voluptate laborum ex ut amet labore proident nostrud.\r\n",
+    "seniority": "Senior",
+    "hourlyRate": 342,
+    "createdAt": "2018-10-08T11:45:05 -02:00",
+    "tags": ["css", "next.js"]
+  }
+]

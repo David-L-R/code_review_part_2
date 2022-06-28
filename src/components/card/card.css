@@ -1,0 +1,75 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px 16px 16px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.primary-button {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: gray;
+  border: 1px solid gray;
+  color: white;
+}
+
+.secondary-button {
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+.secondary-button:active,
+.primary-button:active {
+  background-color: lightblue;
+}
+
+.tags {
+  /* TODO: add styling to show the tags in a row */
+  /* TODO: The tags should have space of 10px between them */
+}
+
+.tag {
+  background-color: darkgoldenrod;
+  color: yellow;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+h4,
+p {
+  margin-top: 0;
+}
