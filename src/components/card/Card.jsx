@@ -1,18 +1,35 @@
 import "./card.css";
 
-export const Card = (props) => {
+export const Card = ({
+  avatar,
+  name,
+  title,
+  description,
+  seniority,
+  hourlyRate,
+  tags,
+}) => {
   return (
     <div className='card'>
-      <img src='https://www.w3schools.com/howto/img_avatar2.png' alt='Avatar' />
+      <img src={avatar} alt='Avatar' />
       <div className='container'>
-        <h4>User Name</h4>
-        <p>User job</p>
-        <p>Seniority level: SENIORITY</p>
-        <p>Hourly rate: RATE</p>
-        <p>Languages:</p>
-        {/* {props.tags.map((tag) => (
-          <div className='tag'>{tag}</div>
-        ))} */}
+        <h3>{name}</h3>
+        <h4>{title}</h4>
+        <p>{description.slice(0, 50)}...</p>
+        <p>
+          <b>Seniority level</b>: {seniority}
+        </p>
+        <p>
+          <b>Hourly rate</b>: {hourlyRate}$
+        </p>
+        <p>
+          <b>Languages</b>:
+        </p>
+        <div className='tags'>
+          {tags.map((tag) => (
+            <div className='tag'>{tag}</div>
+          ))}
+        </div>
         <footer>
           <button className='primary-button'>Book Now</button>
           <button className='secondary-button'>Full profile</button>

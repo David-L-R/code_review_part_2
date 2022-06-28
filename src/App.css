@@ -3,3 +3,7 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.text {
+  width: 50%;
+}

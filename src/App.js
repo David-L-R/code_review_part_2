@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import { Navbar, Page, Content, Card } from "./components";
 import { fetchFreelancers } from "./api/fetch";
 import "./App.css";
+import { content1, content2 } from "./text/main_page";
 
 function App() {
   const [users, setUsers] = useState([]);
   useEffect(() => {
     const fetch = async () => {
-      setUsers(await fetchFreelancers());
       try {
+        setUsers(await fetchFreelancers());
       } catch (err) {
         console.log(err);
       }
@@ -21,17 +22,36 @@ function App() {
       <Page>
         <Navbar />
         <Content>
-          <h1>Hello world</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui libero
-            totam blanditiis saepe alias at iste nam voluptatum vel magni
-            similique aut, et corporis, nulla sint eveniet. Laudantium, eveniet
-            incidunt?
-          </p>
+          <div className='text'>
+            <h1>Find a coding hero</h1>
+            <h2>Our heroes, your budget!</h2>
+            <p>{content1}</p>
+          </div>
           <div className='card-container'>
-            {users.map((user) => (
-              <Card />
-            ))}
+            {users.map((user) => {
+              const {
+                id,
+                avatar,
+                name,
+                title,
+                description,
+                seniority,
+                hourlyRate,
+                tags,
+              } = user;
+              return (
+                <Card
+                  id={id}
+                  avatar={avatar}
+                  name={name}
+                  title={title}
+                  description={description}
+                  seniority={seniority}
+                  hourlyRate={hourlyRate}
+                  tags={tags}
+                />
+              );
+            })}
           </div>
         </Content>
       </Page>
