@@ -9,10 +9,10 @@ export const Navbar = () => {
           <a href='#'>home</a>
         </li>
         <li>
-          <a href='#'>find</a>
+          <a href='#'>filter</a>
         </li>
         <li>
-          <a href='#'>share</a>
+          <a href='#'>login</a>
         </li>
       </ul>
     </div>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, Page, Content, Card } from "./components";
 import { fetchFreelancers } from "./api/fetch";
 import "./App.css";
-import { content1, content2 } from "./text/main_page";
+import { content1 } from "./text/main_page";
 
 function App() {
   const [users, setUsers] = useState([]);

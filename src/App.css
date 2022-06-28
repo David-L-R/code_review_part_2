@@ -4,6 +4,10 @@
   gap: 20px;
 }
 
+.card-container > div {
+  max-width: 30%;
+}
+
 .text {
   width: 50%;
 }
