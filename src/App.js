@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, Page, Content, Card } from "./components";
 import { fetchFreelancers } from "./api/fetch";
 import "./App.css";
+import { content1 } from "./text/main_page";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -21,17 +22,13 @@ function App() {
       <Page>
         <Navbar />
         <Content>
-          <h1>Hello world</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui libero
-            totam blanditiis saepe alias at iste nam voluptatum vel magni
-            similique aut, et corporis, nulla sint eveniet. Laudantium, eveniet
-            incidunt?
-          </p>
+          <h1>Find a coding hero</h1>
+          <h2>Our heroes, your budget!</h2>
+          <p>{content1}</p>
           <div className='card-container'>
-            {users.map((user) => (
-              <Card />
-            ))}
+            {/* TODO: iterate over users */}
+            {/* TODO: For each user return <Card /> */}
+            {/* TODO: <Card /> should have all its content dynamically from the user data */}
           </div>
         </Content>
       </Page>

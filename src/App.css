@@ -1,5 +1,7 @@
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  /* TODO: create a container to present rows of users cards */
+  /* TODO: each row should have maximum of 3 cards */
+  /* TODO: if there are more cards than one row, the row should break to create more rows */
+  /* TODO: between the cards there should be 20px of space */
+  /* TODO: if there is a row with less than 3 cards, they should be aligned to the left and not centered */
 }
