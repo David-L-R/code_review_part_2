@@ -58,8 +58,8 @@ footer {
 }
 
 .tags {
-  /* TODO: add styling to show the tags in a row */
-  /* TODO: The tags should have space of 10px between them */
+  display: flex;
+  gap: 10px;
 }
 
 .tag {
